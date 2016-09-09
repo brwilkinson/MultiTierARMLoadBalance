@@ -1,5 +1,13 @@
-# MultiTierARM
-Create a domain with 2 DC's, Mid Tier Servers and Member Servers
+# MultiTierARMLoadBalance
+Create a domain with 2 DC's, Mid Tier Servers and Member Servers behind a Load Balancer
+
+* There is only a single Public IP on the Load Balancer
+
+* The member servers are behind NAT on different ports for WSMAN and RDP (for examples)
+
+* The Mid Tier Servers are Load Balanced on port 80 (for examples)
+
+
 
 ## Steps to get up and running
     1. Download the zip file or clone the repo
@@ -8,6 +16,6 @@ Create a domain with 2 DC's, Mid Tier Servers and Member Servers
 
  You should now be ready deploy:
 
-* Ensure you setup the KeyVault for your credentials during deployment
+* Ensure you setup the KeyVault for your credentials during deployment, in the same region that you want to deploy 
 
 * View the DeploymentFeatures.md file
