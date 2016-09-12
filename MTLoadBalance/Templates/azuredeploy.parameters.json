@@ -3,10 +3,10 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "DeploymentID": {
-            "value": "20"
+            "value": "52"
         },
         "Environment": {
-            "value": "Test"
+            "value": "Dev"
         },
         "vmDomainName": {
             "value": "Contoso.com"

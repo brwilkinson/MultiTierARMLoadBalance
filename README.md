@@ -3,9 +3,11 @@ Create a domain with 2 DC's, Mid Tier Servers and Member Servers behind a Load B
 
 * There is only a single Public IP on the Load Balancer
 
-* The member servers are behind NAT on different ports for WSMAN and RDP (for examples)
+* The member server/s are behind NAT on different ports for WSMAN and RDP (for examples)
 
-* The Mid Tier Servers are Load Balanced on port 80 (for examples)
+* The Mid Tier Server/s are Load Balanced on port 80 (for examples)
+
+* There is not direct access via WSMAN or RDP other than the member server/s
 
 
 
